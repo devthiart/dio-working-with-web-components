@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galactic News</title>
+  <link rel="stylesheet" href="./styles/style.css">
+  <script src="src/Components/CardNews.js" defer></script>
+  <script src="src/Components/DynamicTitle.js" defer></script>
+  <script src="src/Components/MyFirstTag.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <!-- <div class="card">
+      <div class="card__left">
+        <span>By Felipe Aguiar</span>
+        <a href="#">Darth Valer Contrata Devs</a>
+        <p>Darth Vader procura desenvolvedores front end quem sabem trabalhar com componentes.</p>
+      </div>
+      <div class="card__right">
+        <img src="./assets/darth-vader.png" alt="Darth Vader photo." />
+      </div>
+    </div> -->
+    <card-news 
+      author="Felipe"
+      title="Darth Vader Contrata Devs"
+      content="Darth Vader procura desenvolvedores front end quem sabem trabalhar com componentes."
+      url-link="https://www.google.com"
+      photo="./assets/darth-vader.png"
+      photo-alt="Foto do Darth Vader."
+    >
+    </card-news>
+    <card-news 
+      author="Felipe"
+      title="Darth Vader Contrata Devs"
+      content="Darth Vader procura desenvolvedores front end quem sabem trabalhar com componentes."
+      url-link="https://www.google.com"
+    >
+    </card-news>
+  </div>
+  <!-- <my-first-tag title="Hello World!"></my-first-tag> -->
+  
+</body>
+</html>
